@@ -22,7 +22,7 @@ namespace Test
     [Serializable]
 	public class Hero
     {
-        //名称dfghjk时代风格
+        //名称dfghj
         public string Name;
         //等级
         public Level MyLevel;
