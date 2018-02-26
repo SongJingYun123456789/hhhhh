@@ -2,6 +2,7 @@
  * 
  *    Title: "SUIFW" UI框架项目
  *           主题： 演示Unity 对Json 解析API    
+    
  *    Description: 
  *           功能： 
  *                  
@@ -20,12 +21,9 @@ using UnityEngine;
 namespace Test
 {
     [Serializable]
-	public class Hero
-    {
-        //名称d
-        public string Name;
-        //等级
-        public Level MyLevel;
+	public class Level
+	{
+	    public int HeroLevel;
 
-    }
+	}
 }
